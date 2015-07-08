@@ -1,0 +1,188 @@
+body{
+	background-color: #FF9000;
+	background-image: url('http://i.imgur.com/ghEsfBg.png');
+}
+/*http://i.imgur.com/vLWrUs9.png*/
+a{
+	text-decoration: none;
+	text-transform: none;
+	color: white;
+}
+
+nav{
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	padding: 20px 20px 30px 20px;
+	background-color: #333;
+	color: #fff;
+	/*border-radius: 25px;*/
+}
+
+.navWrap{
+	height: 30px;
+}
+
+section{
+	margin: 30px 0 10px;
+	padding: 15px;
+	background-color: #333;
+	color: #fff;
+	border-radius: 25px;
+}
+
+h1{
+	text-align: center;
+	font-size: 48px;
+}
+
+p{
+	text-align: justify;
+}
+
+/*nav styles*/
+
+button{
+    background: #333;
+    color: #FFF;
+    border: none !important;
+    margin: 0;
+    padding: 0.4em 0.8em;
+    font-size: 1em;
+}
+
+.dropdown{
+	position: relative;	
+	display: inline-block;
+}
+
+.dropdown .dropdown-menu{
+	border: none !important;
+	position: absolute;	
+	list-style: none;
+	width: 100% !important;
+	top: 100%;
+	left: 0px;
+	margin: 0 !important;
+	padding: 0 !important;
+	min-width: 0 !important;
+	border-radius: 0 !important;
+}	
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/** Button Styles **/
+.dropdown button {
+    background: #333;
+    color: #FFF;
+    border: none;
+    margin: 0;
+    padding: 0.4em 0.8em;
+    font-size: 1em;
+}
+
+/** List Item Styles **/
+.dropdown-menu  a {
+    display: block;
+    border-bottom: #000 solid 1px;
+    padding: 0.2em 0.8em;
+    text-decoration: none;
+    background: #CCC;
+    color: #333;
+}
+
+/** List Item Hover Styles **/
+.dropdown a:hover {
+    background: #FF9600 !important;
+    color: #fff !important;
+}
+
+button:hover{
+	text-decoration: none !important;
+	background-color: #FF9600;
+	color: #fff !important;
+}
+
+button a{
+	color: #fff !important;
+	text-decoration: none !important;
+}
+
+/*end of nav styles*/
+
+.photoBox{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bolder;
+	background-color: #fff;
+	color: #111;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px;
+	float: left;
+	display: block;
+}
+
+.page-title h1{
+	font-size: 5em;
+}
+
+.second{
+	margin-top: -30px;
+}
+
+.bio{
+	margin-top: 100px;
+	margin-right: 100px;
+}
+
+.bioPic{
+	display: block;
+	float: left;
+	max-height: 500px;
+	margin-right: 50px;
+}
+
+form{
+	text-align: left;
+	width: 300px;
+	margin: 20px auto 0;
+}
+
+form label{
+	display: block;
+	width: 290px;
+	padding: 5px;
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: bold;
+	background: #ff9600;
+	color: #fff;
+}
+
+form input, form textarea{
+	display: block;
+	width: 290px;
+	padding: 5px;
+	margin: 0 0 10px;
+	border: none;
+	font-size: 22px;
+	font-family: Georgia, Times, serif;
+	font-style: italic;
+	color: #000;
+}
+
+form textarea{
+	min-height: 100px;
+}
+
+form input[type="submit"]{
+	background: #ff9600;
+	color: #fff;
+	cursor: pointer;
+	width: 290px;
+}

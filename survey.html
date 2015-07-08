@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<title>Survey</title>
+	</head>
+	<body>
+		<nav class="row">
+			<div class="col-md-3">
+				<button>	
+					<span class="glyphicon glyphicon-home" aria-hidden="true"></span> <a href="index.html">Home</a>		
+				</button>
+			</div>				
+			<div class="col-md-3">
+				<div class="dropdown">
+					<button>
+						<span class="glyphicon glyphicon-user" aria-hidden="true"></span> <a href="bio.html">Meet Us</a>
+					</button>
+					<ul class="dropdown-menu">
+						<li><a href="bio/aumio.html">Aumio</a></li>
+					    <li><a href="bio/johnathan.html">Johnathan</a></li>
+					    <li><a href="bio/maleeka.html">Maleeka</a></li>
+					    <li><a href="bio/rapture.html">Rapture</a></li>
+				    </ul>
+				</div>
+			</div>	
+
+			<div class="col-md-3">
+				<div class="dropdown">
+					<button>
+						<span class="glyphicon glyphicon-blackboard"></span> <a href="tutorial.html">Come Learn</a>
+					</button>
+				    <ul class="dropdown-menu">
+				      <li><a href="tutorial/maintenance.html">Maintenance</a></li>
+				      <li><a href="tutorial/nouns.html">Nouns</a></li>
+				      <li><a href="tutorial/powerpoint.html">PowerPoint</a></li>
+				      <li><a href="tutorial/vm.html">Virtual Machine</a></li>
+				    </ul>
+				</div>
+			</div>
+			
+			<div class="col-md-3">
+				<button>
+					<span class="glyphicon glyphicon-comment" aria-hidden="true"></span> <a href="survey.html">Feedback</a>
+				</button>
+			</div>	
+		</nav>
+
+		<main class="container">
+			<section class="row">
+				<div class="col-md-12">
+					<h1>Tell us about your experience</h1>
+					<form id="form">
+						<label for="your_name">Name</label>
+						<input type="text" id="your_name" placeholder="John Doe">
+
+						<label for="your_email">Email</label>
+						<input type="email" id="your_email" placeholder="you@email.com">	
+
+						<label for="your_comment">Comments</label>
+						<textarea id="your_comment" placeholder="The U.X. is awesome!"></textarea>	
+
+						<input type="submit" value="Submit">
+					</form>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
