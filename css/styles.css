@@ -146,6 +146,8 @@ button a{
 	margin-right: 50px;
 }
 
+/* form styles */
+
 form{
 	text-align: left;
 	width: 300px;
@@ -185,4 +187,12 @@ form input[type="submit"]{
 	color: #fff;
 	cursor: pointer;
 	width: 290px;
+}
+
+/* end of form styles */
+
+.youtube {
+	display: block;
+	margin: 20px auto 10px;
+	padding: 0 20px;
 }
