@@ -124,7 +124,6 @@ button a{
 	color: #fff;
 	border-radius: 5px;
 	padding: 10px;
-	margin: auto;
 	float: left;
 	display: block;
 	font-family: 'Raleway', sans-serif;
@@ -133,6 +132,10 @@ button a{
 .page-title h1{
 	font-size: 5em;
 	font-family: 'Raleway', sans-serif;
+}
+
+.tutBox{
+	margin: 0 0 10px 50px !important;
 }
 
 .second{
