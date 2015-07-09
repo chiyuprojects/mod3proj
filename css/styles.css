@@ -124,7 +124,7 @@ button a{
 	color: #fff;
 	border-radius: 5px;
 	padding: 10px;
-	margin: 5px;
+	margin: auto;
 	float: left;
 	display: block;
 	font-family: 'Raleway', sans-serif;
@@ -153,6 +153,11 @@ button a{
 	margin: 30px 50px 20px 30px;
 	border: #ff9600 solid 8px;
 	border-radius: 15%;
+}
+
+.tutPic{
+	max-height: 400px;
+	max-width: 400px;
 }
 
 /* end of bio styles */
