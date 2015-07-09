@@ -13,13 +13,13 @@ a{
 
 nav{
 	text-align: center;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Roboto Slab', serif;
+	/*font-family: Helvetica, Arial, sans-serif;*/
 	font-weight: bold;
 	font-size: 24px;
 	padding: 20px 20px 30px 20px;
 	background-color: #333;
 	color: #fff;
-	/*border-radius: 25px;*/
 }
 
 .navWrap{
@@ -32,7 +32,7 @@ section{
 	padding: 15px;
 	background-color: #333;
 	color: #fff;
-	border-radius: 25px;
+	/*border-radius: 25px;*/
 }
 
 h1{
